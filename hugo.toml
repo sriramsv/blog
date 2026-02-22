@@ -1,10 +1,10 @@
-baseURL = "https://sriramsv.github.io/blog/"
+baseURL = "https://blog.sriramsv.com/"
 languageCode = 'en-us'
 title = 'Srirams Blog'
 theme = 'PaperMod'
 
 [params]
-  author = {name = 'Sriram'}
+  author = ['Sriram']
 
   ShowReadingTime = true
   ShowShareButtons = false
