@@ -1,0 +1,19 @@
+baseURL = 'https://blog.sriramsv.com'
+languageCode = 'en-us'
+title = 'Srirams Blog'
+theme = 'PaperMod'
+
+[params]
+  author = {name = 'Sriram'}
+
+  ShowReadingTime = true
+  ShowShareButtons = false
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+
+[menu]
+  [[menu.main]]
+    name = 'Posts'
+    url = '/posts/'
+    weight = 1
