@@ -1,4 +1,4 @@
-baseURL = "https://sriramsv.github.io/"
+baseURL = "https://sriramsv.github.io/blog/"
 languageCode = 'en-us'
 title = 'Srirams Blog'
 theme = 'PaperMod'
