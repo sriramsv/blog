@@ -5,7 +5,7 @@ PaperMod theme, deployed via GitHub Pages.
 
 ## Stack
 
-- **Generator**: Hugo (extended), config in `hugo.toml`
+- **Generator**: Hugo (extended, v0.156.0 pinned in CI), config in `hugo.toml`
 - **Theme**: [PaperMod](https://github.com/adityatelange/hugo-PaperMod), vendored as a git
   submodule at `themes/PaperMod` — don't edit files under this path directly, they'll be lost on
   submodule update. Override via `layouts/` at the repo root instead.
@@ -26,6 +26,15 @@ from production builds).
 ```
 hugo server -D
 ```
+
+## Production build
+
+```
+./scripts/build.sh
+```
+
+Runs `hugo --minify`, same as CI (`.github/workflows/deploy.yml`); output goes to `public/`
+(gitignored). Use this to catch build errors locally before pushing.
 
 ## DNS
 

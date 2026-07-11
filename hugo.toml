@@ -1,6 +1,6 @@
 baseURL = "https://blog.sriramsv.com/"
 languageCode = 'en-us'
-title = 'Srirams Blog'
+title = "Sriram's Blog"
 theme = 'PaperMod'
 
 [params]
@@ -11,6 +11,30 @@ theme = 'PaperMod'
   ShowPostNavLinks = true
   ShowBreadCrumbs = true
   ShowCodeCopyButtons = true
+
+  [params.profileMode]
+    enabled = true
+    title = "Sriram"
+    subtitle = "Automating life, one day at a time."
+    imageUrl = "images/profile.jpeg"
+    imageTitle = "Sriram"
+    imageWidth = 150
+    imageHeight = 150
+    buttons = [
+      { name = "Posts", url = "/posts/" },
+    ]
+
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/sriramsv"
+
+  [[params.socialIcons]]
+    name = "linkedin"
+    url = "https://www.linkedin.com/in/sriramsv/"
+
+  [[params.socialIcons]]
+    name = "rss"
+    url = "index.xml"
 
 [menu]
   [[menu.main]]
