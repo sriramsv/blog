@@ -2,6 +2,7 @@ baseURL = "https://blog.sriramsv.com/"
 languageCode = 'en-us'
 title = "Sriram's Blog"
 theme = 'PaperMod'
+googleAnalytics = "G-QD65HWQW7M"
 
 [params]
   author = ['Sriram']
