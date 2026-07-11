@@ -1,0 +1,25 @@
+{{- define "main" }}
+
+{{- $pages := where site.RegularPages "Type" "in" site.Params.mainSections }}
+{{- $pages = where $pages "Params.hiddenInHomeList" "!=" "true" }}
+{{- $recent := $pages.ByDate.Reverse | first 5 }}
+
+<div class="home-layout">
+  {{- with $recent }}
+  <div class="timeline-card">
+    <h2 class="timeline-card-header">Recent posts</h2>
+    <ul class="timeline-list">
+      {{- range . }}
+      <li class="timeline-entry">
+        <span class="timeline-date">{{ .Date.Format "Jan 2, 2006" }}</span>
+        <a class="timeline-link" href="{{ .Permalink }}">{{ .Title }}</a>
+      </li>
+      {{- end }}
+    </ul>
+  </div>
+  {{- end }}
+
+  {{- partial "index_profile.html" . }}
+</div>
+
+{{- end }}{{- /* end main */ -}}

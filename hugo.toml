@@ -4,6 +4,9 @@ title = "Sriram's Blog"
 theme = 'PaperMod'
 googleAnalytics = "G-QD65HWQW7M"
 
+[outputs]
+  home = ['HTML', 'RSS', 'JSON']
+
 [params]
   author = ['Sriram']
 
@@ -12,6 +15,8 @@ googleAnalytics = "G-QD65HWQW7M"
   ShowPostNavLinks = true
   ShowBreadCrumbs = true
   ShowCodeCopyButtons = true
+  ShowToc = true
+  TocOpen = false
 
   [params.profileMode]
     enabled = true
@@ -42,3 +47,7 @@ googleAnalytics = "G-QD65HWQW7M"
     name = 'Posts'
     url = '/posts/'
     weight = 1
+  [[menu.main]]
+    name = 'Search'
+    url = '/search/'
+    weight = 2

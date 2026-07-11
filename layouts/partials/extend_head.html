@@ -1,0 +1,71 @@
+<style>
+  .home-layout {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    max-width: 900px;
+    margin: 0 auto;
+  }
+
+  .home-layout .profile {
+    min-height: auto;
+    flex: 1 1 320px;
+  }
+
+  .home-layout .timeline-card {
+    flex: 1 1 320px;
+  }
+
+  .timeline-card {
+    max-width: 400px;
+    margin: 0;
+    padding: 20px 24px;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+  }
+
+  .timeline-card-header {
+    margin: 0 0 12px;
+    font-size: 20px;
+  }
+
+  .timeline-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    border-left: 2px solid var(--border);
+  }
+
+  .timeline-entry {
+    position: relative;
+    padding: 0 0 14px 20px;
+  }
+
+  .timeline-entry::before {
+    content: "";
+    position: absolute;
+    left: -5px;
+    top: 6px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: var(--primary);
+  }
+
+  .timeline-date {
+    display: block;
+    font-size: 13px;
+    color: var(--secondary);
+  }
+
+  .timeline-link {
+    color: var(--primary);
+  }
+
+  .related-posts {
+    max-width: 100%;
+    margin: 24px auto 0;
+  }
+</style>
