@@ -1,6 +1,6 @@
 baseURL = "https://blog.sriramsv.com/"
 languageCode = 'en-us'
-title = "Sriram's Blog"
+title = "Sriram's Homelab Adventures"
 theme = 'PaperMod'
 googleAnalytics = "G-QD65HWQW7M"
 
@@ -20,7 +20,7 @@ googleAnalytics = "G-QD65HWQW7M"
 
   [params.profileMode]
     enabled = true
-    title = "Sriram"
+    title = "Sriram's Homelab Adventures!"
     subtitle = "Automating life, one day at a time."
     imageUrl = "images/profile.svg"
     imageTitle = "Sriram"
