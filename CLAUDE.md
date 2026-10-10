@@ -48,3 +48,7 @@ GitHub's HTTPS enforcement is stable.
 
 - This repo previously deployed via Netlify (`netlify.toml`, since removed) — GitHub Pages is
   the current and only deploy target.
+
+## Superpowers
+
+Use the obra/superpowers skills (`superpowers@superpowers-marketplace` plugin) by default in this repo: check `superpowers:using-superpowers` before acting and invoke any skill that applies (brainstorming → writing-plans → executing-plans, plus test-driven-development, systematic-debugging, verification-before-completion). Repo-specific rules in this file still take precedence where they conflict.
